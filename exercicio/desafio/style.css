@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@100&display=swap');
+
+
+
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+
+:root{
+
+    --cor01:#AFCAEC;
+    --cor02:#66A1E8;
+    --cor03:#507DB5;
+    --cor04:#2E4869;
+    --cor05:#06336B;
+
+    --font-titulo:'Permanent Marker', cursive;
+    --font-padrao:'Roboto', sans-serif; 
+}
+
+header{
+    background-color: var(--cor05);
+    text-align: center;
+    font-family:var(--font-titulo);
+    color: white;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.432);
+
+}
+
+main{
+    background-color: var(--cor01);
+    font-family: var(--font-padrao);
+    width: 700px;
+    height: 930px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.432);
+    
+}
+
+
+body{
+    
+    background-color: #f7f7f7;
+}
+
+footer{
+    background-color: var(--cor05);
+    padding: 1px;
+    font-style: italic;
+
+}
